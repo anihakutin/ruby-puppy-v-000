@@ -9,6 +9,6 @@ class Dog
     @@all.clear
   end
   def self.all?
-    
+    @@all.each {|song| puts song.name}
   end
 end
